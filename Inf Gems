@@ -1,0 +1,22 @@
+
+
+local args = {
+    [1] = {
+        [1] = "NewVal",
+        [2] = "Gems",
+        [3] = 10000000
+    }
+}
+
+game:GetService("ReplicatedStorage").Receiver:FireServer(unpack(args))
+
+
+
+
+local args = {
+    [1] = {
+        [1] = "GetData"
+    }
+}
+
+game:GetService("ReplicatedStorage").Receiver:FireServer(unpack(args))
